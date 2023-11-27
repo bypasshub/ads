@@ -1,4 +1,4 @@
- document.addEventListener('DOMContentLoaded', function () {
+ 
         // Get the overlay and popup elements
         var overlay = document.getElementById('overlay');
         var popup = document.getElementById('popup');
@@ -41,4 +41,4 @@
         overlay.addEventListener('click', function (event) {
             event.stopPropagation();
         });
-    });
+ 
